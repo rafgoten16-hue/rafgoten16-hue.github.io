@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipper — Règles de confidentialité</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; background: #07090f; color: #e8eaf2; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 56px 20px; }
+    h1 { font-size: 30px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 32px 0 8px; }
+    p, li { color: #b9bfd0; }
+    a { color: #7fb0ff; }
+    footer { margin-top: 48px; font-size: 14px; color: #7d849a; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p>Dernière mise à jour : 26 octobre 2026.</p>
+  <p>Clipper est une application personnelle installée sur l'ordinateur de son utilisateur. Cette page explique
+    quelles données Clipper utilise quand on relie un compte YouTube.</p>
+
+  <h2>Données utilisées</h2>
+  <ul>
+    <li><strong>Envoi de vidéos</strong> (portée <code>youtube.upload</code>) : Clipper envoie sur la chaîne les clips
+      que l'utilisateur a validés, avec leur titre, leur description et leur date de publication.</li>
+    <li><strong>Lecture de la chaîne</strong> (portée <code>youtube.readonly</code>) : Clipper lit le nom de la chaîne
+      et l'état des vidéos qu'il a envoyées (privée, publique, nombre de vues, de likes et de commentaires).</li>
+    <li><strong>Statistiques</strong> (portée <code>yt-analytics.readonly</code>) : Clipper lit le pourcentage moyen
+      regardé de ces vidéos.</li>
+  </ul>
+
+  <h2>Où sont gardées ces données</h2>
+  <p>Toutes les données restent sur l'ordinateur de l'utilisateur : le jeton d'accès à YouTube et les statistiques
+    sont enregistrés dans le dossier de Clipper. Clipper n'a pas de serveur : aucune donnée n'est envoyée ailleurs que
+    vers les services de Google eux-mêmes.</p>
+
+  <h2>Partage</h2>
+  <p>Les données ne sont ni vendues, ni partagées, ni utilisées pour de la publicité. L'usage des données reçues des
+    API Google respecte le <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur les
+    données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+
+  <h2>Retirer l'accès</h2>
+  <p>L'accès peut être retiré à tout moment depuis la page
+    <a href="https://myaccount.google.com/permissions">Applications tierces ayant accès à votre compte</a> de Google,
+    ou en cliquant sur « Déconnecter » dans la page Publier de Clipper (le jeton est alors effacé du PC).</p>
+
+  <footer><a href="index.html">Accueil de Clipper</a></footer>
+</main>
+</body>
+</html>
